@@ -7,7 +7,7 @@ const { PDFDocument } = require("pdf-lib");
 // ============================================================
 
 // Input PDF file
-const inputFile = "32.pdf";
+const inputFile = "33.pdf";
 
 // Page ranges to EXCLUDE
 // Format: [startPage, endPage]
@@ -21,18 +21,16 @@ const inputFile = "32.pdf";
 // [25, 25]
 //
 const excludeRanges = [
-  [1, 25],
+  [1, 2],
+  [6, 7],
   [65, 66],
-  [74, 81],
+  [102, 107],
   
   
   
   
-  [35, 35],
-  [60, 60],
-  [62, 62],
-
-
+  [32, 32],
+  [63, 63],
 
 ];
 
